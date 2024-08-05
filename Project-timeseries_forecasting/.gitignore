@@ -1,0 +1,22 @@
+data/*
+
+#Makes sure that the data/ folder itself is included but not the contents
+!data/.gitkeep 
+!data/nasdaq_energy_sector.csv
+!data/dataeqnr_max_daily.csv
+
+.env
+
+#All torch weights files
+*.pth
+
+
+.DS_Store
+
+__pycache__
+.DS_Store
+wandb
+
+#Created by the cluster for logging during runs
+err.txt
+out.txt
